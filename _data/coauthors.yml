@@ -1,18 +1,41 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Toussaint":
+  - firstname: ["Marc", "M."]
+    url: https://www.user.tu-berlin.de/mtoussai/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Hartmann":
+  - firstname: ["Valentin", "Valentin Noah", "V. N.", "V."]
+    url: https://vhartmann.com/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Schubert":
+  - firstname: ["Ingmar", "I."]
+    url: https://ingmarschubert.com/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Ortiz-Haro":
+  - firstname: ["Joaquim", "J."]
+    url: https://quimortiz.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Wollherr":
+  - firstname: ["Dirk", "D."]
+    url: https://www.ei.tum.de/en/lsr/team/dozenten/dirk-wollherr/
+
+"Leibold":
+  - firstname: ["Marion", "M."]
+    url: https://www.ei.tum.de/en/lsr/team/dozenten/marion-leibold/
+
+"Buss":
+  - firstname: ["Martin", "M."]
+    url: https://www.ei.tum.de/en/lsr/team/professoren/martin-buss/
+
+"Sezgin":
+  - firstname: ["Metin", "M.", "T. M.", "Tevfik Metin"]
+    url: https://iui.ku.edu.tr/people/
+
+"Basdogan":
+  - firstname: ["Cagatay", "C."]
+    url: http://home.ku.edu.tr/~cbasdogan/
+
+"Kucukyilmaz": 
+  - firstname: ["Ayse", "A."]
+    url: http://www.cs.nott.ac.uk/~pszak1/
+
+
