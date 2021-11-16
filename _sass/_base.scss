@@ -199,12 +199,15 @@ blockquote {
 // News
 
 .news table td {
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: var(--global-text-color);
+  padding: 0%;
 }
 
 .news table th {
+  font-size: 0.875rem;
   color: var(--global-text-color);
+  padding: 0%;
 }
 
 // Social (bottom)
@@ -251,9 +254,9 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.2rem;
 }
 
 
