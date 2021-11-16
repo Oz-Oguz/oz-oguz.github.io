@@ -2,13 +2,21 @@
   - firstname: ["Marc", "M."]
     url: https://www.user.tu-berlin.de/mtoussai/
 
+"Orthey":
+  - firstname: ["Andreas", "A."]
+    url: https://sites.google.com/view/aorthey/
+
 "Hartmann":
-  - firstname: ["Valentin", "Valentin Noah", "V. N.", "V."]
+  - firstname: ["Valentin", "Valentin Noah", "Valentin N.", "V. N.", "V."]
     url: https://vhartmann.com/
 
 "Schubert":
   - firstname: ["Ingmar", "I."]
     url: https://ingmarschubert.com/
+
+"Driess":
+  - firstname: ["Danny", "D."]
+    url: https://dannydriess.github.io/
 
 "Ortiz-Haro":
   - firstname: ["Joaquim", "J."]

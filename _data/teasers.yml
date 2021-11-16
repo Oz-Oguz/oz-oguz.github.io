@@ -1,17 +1,18 @@
-landing:
-  img: teasers/landing.png
 
-miscalib:
-  img: teasers/miscalib.png
+22-braun-ICRA:
+  img: teasers/22-braun-ICRA.png
+  
+21-schubert-ICLR:
+  img: teasers/21-schubert-ICLR.png
 
-vision_uav:
-  img: teasers/vision_uav.png
+21-hartmann-TRO:
+  img: teasers/21-hartmann-TRO.png
 
-lyap_mpc:
-  img: teasers/lyap_mpc.png
+21-kalousdian-RAL:
+  img: teasers/21-kalousdian-RAL.png
 
-articulated_mm:
-  img: teasers/articulated.svg
+21-schubert-NeurIPS:
+  img: teasers/21-schubert-NeurIPS.png
 
-trifinger:
-  img: teasers/trifinger.gif
+# trifinger:
+#   img: teasers/trifinger.gif / svg

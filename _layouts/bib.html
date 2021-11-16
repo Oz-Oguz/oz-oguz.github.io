@@ -1,5 +1,7 @@
 ---
 ---
+
+
 <div id="{{entry.key}}"  class="col three">
   <div style="clear: both;">
     <div style="">
@@ -11,6 +13,7 @@
       {{reference}}
     {% else %}
       <span class="title">{{entry.title}}</span>
+      <br>
       <span class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
@@ -46,6 +49,7 @@
       </span>
 
       <span class="periodical">
+        - 
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
@@ -74,8 +78,11 @@
     {% else%}
       [arXiv (available soon)]
     {% endif %}
-    {% if entry.video %}
-      [<a href="{{ entry.video }}" target="_blank">Video</a>]
+    {% if entry.bibtex_show %}
+      <a class="bibtex btn-link" role="button">[Bib]</a>
+    {% endif %}
+    {% if entry.youtube %}
+      <a class="btn-link" href="https://www.youtube.com/watch?v={{entry.youtube}}" target="_blank">[Video]</a>
     {% endif %}
     {% if entry.html %}
       [<a href="{{ entry.html }}" target="_blank">Website</a>]
@@ -99,9 +106,16 @@
 
     <!-- Hidden abstract block -->
     {% if entry.abstract %}
-    <span class="abstract hidden">
+    <div class="abstract hidden">
       <p>{{ entry.abstract }}</p>
-    </span>
+    </div>
+    {% endif %}
+
+    <!-- Hidden bibtex block -->
+    {% if entry.bibtex_show %}
+    <div class="bibtex hidden">
+      {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
+    </div>
     {% endif %}
   </div>
 </div>
