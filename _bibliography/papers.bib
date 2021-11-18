@@ -1,20 +1,20 @@
 ---
 ---
 
-@STRING{corl	= {Proc{.} of the Annual Conf{.} on Robot Learning (CORL)} }
-@STRING{neurips	= {Proc{.} of the Conf{.} on Neural Information Processing Systems (NeurIPS)} }
-@STRING{iclr	= {Proc{.} of the Int{.} Conf{.} on Learning Representations (ICLR)} }
-@STRING{icml  	= {Proc{.} of the Int{.} Conf{.} on Machine Learning (ICML)} }
-@STRING{icra	= {Proc{.} of the IEEE Int{.} Conf{.} on Robotics and Automation (ICRA)} }
-@STRING{ijcai	= {Proc{.} of the Int{.} Joint Conf{.} on Artificial Intelligence (IJCAI)} }
-@STRING{iros	= {Proc{.} of the IEEE/RSJ Int{.} Conf{.} on Intelligent Robots and Systems (IROS)} }
-@STRING{rss	    = {Proc{.} of Robotics: Science and Systems (R:SS)} }
-@STRING{tro	    = {IEEE Transactions on Robotics} }
-@STRING{ral	    = {IEEE Robotics and Automation Letters} }
-@STRING{tnnls   = {IEEE Transactions on Neural Networks and Learning Systems} }
-@STRING{toh	    = {IEEE Transactions on Haptics} }
+@STRING{corl	= {CORL - Conf{.} on Robot Learning} }
+@STRING{neurips	= {NeurIPS - Conf{.} on Neural Information Processing Systems} }
+@STRING{iclr	= {ICLR - Int{.} Conf{.} on Learning Representations} }
+@STRING{icml  	= {ICML - Int{.} Conf{.} on Machine Learning} }
+@STRING{icra	= {IEEE ICRA - Int{.} Conf{.} on Robotics and Automation} }
+@STRING{ijcai	= {IJCAI - Int{.} Joint Conf{.} on Artificial Intelligence} }
+@STRING{iros	= {IEEE/RSJ IROS - Int{.} Conf{.} on Intelligent Robots and Systems} }
+@STRING{rss	    = {R:SS - Robotics: Science and Systems} }
+@STRING{tro	    = {IEEE TRO - Transactions on Robotics} }
+@STRING{ral	    = {IEEE RA-L - Robotics and Automation Letters} }
+@STRING{tnnls   = {IEEE TNNLS - Transactions on Neural Networks and Learning Systems} }
+@STRING{toh	    = {IEEE ToH - Transactions on Haptics} }
 @STRING{hapsym  = {IEEE Haptics Symposium} }
-@STRING{thri	= {ACM Transactions on Human-Robot Interaction} }
+@STRING{thri	= {ACM THRI - Transactions on Human-Robot Interaction} }
 
 
 @InProceedings{22-braun-ICRA,
@@ -31,7 +31,7 @@
 @article{21-hartmann-TRO,
 	title 		= {Long-{Horizon} {Multi}-{Robot} {Rearrangement} {Planning} for {Construction} {Assembly}},
 	author 		= {Hartmann, Valentin Noah and Orthey, Andreas and Driess, Danny and Oguz, Ozgur S. and Toussaint, Marc},
-	journal 	= {IEEE Transactions on Robotics (under rev.)},
+	journal 	= {IEEE TRO - Transactions on Robotics (under rev.)},
 	arxiv	 	= {2106.02489},
 	year 		= {2021},
 	bibtex_show = {true},
@@ -42,12 +42,11 @@
 @article{21-kalousdian-RAL,
 	title 		= {Learning {Robotic} {Manipulation} of {Natural} {Materials} with {Variable} {Properties} for {Construction} {Tasks}},
 	author 		= {Kalousdian, Nicolas K. and Hartmann, Valentin N. and Toussaint, Marc and Menges, Achim and Oguz, Ozgur S.},
-	journal		= {IEEE Robotics and Automation Letters (under rev.)},
-	arxiv		= {2106.02489},
+	journal		= {IEEE RA-L - Robotics and Automation Letters (under rev.)},
 	year 		= {2021},
 	bibtex_show = {true},
 	abbr		= {21-kalousdian-RAL},
-	selected 	= {true}
+	selected 	= {false}
 }
 
 @article{21-schubert-NeurIPS,
@@ -56,6 +55,7 @@
 	author 		= {Schubert, Ingmar and {Driess, Danny} and Oguz, Ozgur S. and Toussaint, Marc},
 	journal 	= neurips,
 	arxiv		= {2111.07908},
+	code 		= {https://github.com/ischubert/l2e},
 	year 		= {2021},
 	bibtex_show = {true},
 	abbr		= {21-schubert-NeurIPS},
@@ -66,6 +66,9 @@
 	title		= {Plan-Based Relaxed Reward Shaping for Goal-Directed Tasks},
 	author		= {Schubert, Ingmar and Oguz, Ozgur S. and Toussaint, Marc},
 	booktitle	= iclr,
+	arXiv		= {2107.06661v1},
+	youtube		= {vNL3zaJOKmo},
+	slides 		= {https://iclr.cc/media/iclr-2021/Slides/3020.pdf},
 	year		= {2021},
 	bibtex_show = {true},
 	abbr		= {21-schubert-ICLR}
@@ -75,20 +78,37 @@
   title		= {Learning Efficient Constraint Graph Sampling for Robotic Sequential Manipulation},
   author	= {Joaquim Ortiz-Haro and Valentin N. Hartmann and Ozgur S. Oguz and Marc Toussaint},
   booktitle	= icra,
-  year		= {2021},
+  arXiv		= {2011.04828},
   youtube	= {mCNdvjTbHNI},
+  ext_pdf 	= {https://argmin.lis.tu-berlin.de/papers/21-ortiz-ICRA.pdf},
+  year		= {2021},
   bibtex_show = {true},
   abbr		= {21-ortiz-ICRA}
+}
+
+@article{21-hagele-JOV,
+  author = {Hägele, David and Abdelaal, Moataz and Oguz, Ozgur S. and Toussaint, Marc and Weiskopf, Daniel},
+  doi = {10.1007/s12650-021-00786-8},
+  issn = {18758975},
+  journal = {Journal of Visualization},
+  refid = {Hägele2021},
+  title = {Visual analytics for nonlinear programming in robot motion planning},
+  html = {https://doi.org/10.1007/s12650-021-00786-8},
+  year		= {2021},
+  bibtex_show = {true},
+  abbr		= {21-hagele-JOV}
 }
 
 @InProceedings{20-nguyen-CORL,
 	title		= {Self-Supervised Learning of Scene-Graph Representations for Robotic Sequential Manipulation Planning},
 	author		= {Son T. Nguyen and Ozgur S. Oguz and Valentin N. Hartmann and Marc Toussaint},
 	booktitle	= corl,
+	pages 		= {2104--2119},
 	series		= {Proceedings of Machine Learning Research},
 	publisher	= {{PMLR}},
-	year		= {2020},
 	youtube		= {ZruIQ9V0_oo},
+	ext_pdf		= {https://proceedings.mlr.press/v155/nguyen21b/nguyen21b.pdf},
+	year		= {2020},
 	bibtex_show = {true},
 	abbr 		= {20-nguyen-CORL}
 }
@@ -97,6 +117,8 @@
 	title 		= {Learning a {Low}-dimensional {Representation} of a {Safe} {Region} for {Safe} {Reinforcement} {Learning} on {Dynamical} {Systems}},
 	author 		= {Zhou, Zhehua and Oguz, Ozgur S and Leibold, Marion and Buss, Martin},
 	journal 	= tnnls,
+	arxiv		= {2010.09555},
+	ext_pdf		= {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9528905},
 	year 		= {2020},
 	bibtex_show = {true},
 	abbr		= {20-zhou-TNNLS}
@@ -106,6 +128,9 @@
 	title 	= {A {General} {Framework} to {Increase} {Safety} of {Learning} {Algorithms} for {Dynamical} {Systems} {Based} on {Region} of {Attraction} {Estimation}},
 	author 	= {Zhou, Zhehua and Oguz, Ozgur S. and Leibold, Marion and Buss, Martin},
 	journal = tro,
+	html	= {https://ieeexplore.ieee.org/abstract/document/9106864},
+	ext_pdf	= {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9106864},
+	ext_vid	= {https://ieeexplore.ieee.org/ielx7/8860/9210910/9106864/supp1-2992981.mp4?arnumber=9106864},
 	year 	= {2020},
 	bibtex_show = {true},
 	abbr 	= {20-zhou-TRO}
@@ -127,7 +152,9 @@
 @inproceedings{20-hagele-VINCI,
 	title 	= {Visualization of {Nonlinear} {Programming} for {Robot} {Motion} {Planning}},
 	author 	= {Hägele, David and Abdelaal, Moataz and Oguz, Ozgur S. and Toussaint, Marc and Weiskopf, Daniel},
-	booktitle = {ACM Proceedings of the 13th {International} {Symposium} on {Visual} {Information} {Communication} and {Interaction}},
+	booktitle = {ACM VINCI - Proc{.} of the 13th {Int{.}} {Sym{.}} on {Visual} {Information} {Communication} and {Interaction}},
+	html	= {https://doi.org/10.1145/3430036.3430050},
+	arxiv	= {2101.12075},
 	year 	= {2020},
 	bibtex_show = {true},
 	abbr	= {20-hagele-VINCI}

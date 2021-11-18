@@ -14,5 +14,31 @@
 21-schubert-NeurIPS:
   img: teasers/21-schubert-NeurIPS.png
 
-# trifinger:
+21-ortiz-ICRA:
+  img: teasers/21-ortiz-ICRA.png
+
+21-hagele-JOV:
+  img: teasers/21-hagele-JOV.png
+
+20-nguyen-CORL:
+  img: teasers/20-nguyen-CORL.png
+
+20-zhou-TNNLS:
+  img: teasers/20-zhou-TNNLS.png
+
+20-zhou-TRO:
+  img: teasers/20-zhou-TRO.png
+
+20-hartmann-IROS:
+  img: teasers/20-hartmann-IROS.png
+
+20-hagele-VINCI:
+  img: teasers/20-hagele-VINCI.png
+
+20-driess-ICRA:
+  img: teasers/20-driess-ICRA.png
+
+
+
+  # trifinger:
 #   img: teasers/trifinger.gif / svg
