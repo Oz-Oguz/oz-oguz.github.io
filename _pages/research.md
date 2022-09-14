@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /courses/cs490
+permalink: /courses/project_courses
 title: 
 description: #Materials for courses I taught. 
 nav: true

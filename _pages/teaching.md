@@ -8,7 +8,7 @@ nav: true
 
 <!-- ## courses -->
 
-- [cs 390 / 490](/courses/cs490)
+- [cs 390 / 490](/courses/project_courses)
 - **22-Fall**: CS 449 / 549: Learning for Robotics
 - **22-Spring**: CS 461: Artificial Intelligence
 
