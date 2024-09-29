@@ -10,9 +10,9 @@ nav_order: 6
 <!-- ## courses -->
 
 - [cs 390 / 490](/courses/project_courses)
-- **22-Fall**: CS 449 / 549: Learning for Robotics
-- **22-Spring**: CS 461: Artificial Intelligence
-
+- **24-Fall**: CS 449 / 549: Learning for Robotics
+- **24-Fall**: CS 461: Artificial Intelligence
+- **23-Spring**: CS 473: Algorithms I
 
 
 ## available positions
