@@ -4,6 +4,7 @@ permalink: /courses/
 title: courses
 description: #Materials for courses I taught. 
 nav: true
+nav_order: 6
 ---
 
 <!-- ## courses -->

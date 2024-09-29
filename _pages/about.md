@@ -9,9 +9,9 @@ profile:
   image: bio_oz.webp
   address: >
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I'm an Asst. Prof. in the area of AI & Robotics at [Bilkent University](https://w3.bilkent.edu.tr/bilkent/) and lead of the [Learning for Intelligent Robotic Agents (LiRA) Lab](lira-lab.github.io) in the [Department of Computer Engineering](https://w3.cs.bilkent.edu.tr/en/).
