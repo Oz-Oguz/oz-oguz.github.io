@@ -370,19 +370,11 @@ ul.task-list input[type="checkbox"] {
   padding: 0;
   border: 0;
   background-color: inherit;
-
-// News
-
-.news table td {
-  font-size: 0.875rem;
   color: var(--global-text-color);
-  padding: 0%;
-}
 
-.news table th {
-  font-size: 0.875rem;
-  color: var(--global-text-color);
-  padding: 0%;
+  &:hover {
+    color: var(--global-hover-color);
+  }
 }
 
 // Social (bottom)
@@ -466,11 +458,54 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 0.2rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 0.9rem;
+
+  .container {
+    text-align: center;
+  }
 }
 
+// CV
+
+.cv {
+  margin-bottom: 40px;
+
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+
+    .list-group-item {
+      background-color: inherit;
+      border-color: var(--global-divider-color);
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+  }
+}
+
+.table-cv-map {
+  background-color: transparent;
+  border: none;
+  color: var(--global-text-color);
+}
+
+.date-column {
+  width: 75px;
+  transform: translateX(-15px) translateY(-5px);
+}
+
+// Repositories
+
+@media (min-width: 768px) {
+  .repo {
+    max-width: 50%;
+  }
+}
 
 // Blog
 
@@ -646,37 +681,10 @@ footer.sticky-bottom {
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
-    margin-right: -1rem;
-  }
-
-  h2.year {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
-    margin-right: -1rem;
-  }
-  h3 {
-    margin-bottom: 1rem;
-    span {
-      font-size: 1rem;
-    }
-  }
-  h3.year {
-    color: var(--global-divider-color);
-    // border-top: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: -2rem;
-    margin-bottom: -2rem;
-    text-align: right;
-    margin-right: -1rem;
   }
 
   ol.bibliography {
     list-style: none;
-    font-size: small;
     padding: 0;
     margin-top: 0;
 
@@ -714,10 +722,9 @@ footer.sticky-bottom {
       }
 
       .author {
-        color: gray;
         a {
-          color: gray;
-          // border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-theme-color);
+
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
@@ -725,9 +732,7 @@ footer.sticky-bottom {
         }
 
         > em {
-          color: rgb(90, 90, 90);
-          font-weight: bolder;
-          // border-bottom: 1px solid;
+          border-bottom: 1px solid;
           font-style: normal;
         }
 
@@ -744,14 +749,15 @@ footer.sticky-bottom {
       }
 
       .links {
-        a.btn-link {
-          color:rgb(143, 8, 48);
-          font-weight: lighter;
-          // border: 0px solid var(--global-text-color);
-          padding-left: 0.0rem;
-          padding-right: 0.0rem;
-          padding-top: 0.0rem;
-          padding-bottom: 0.15rem;
+        a.btn {
+          color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
