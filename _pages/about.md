@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm an Asst. Prof. in the [Department of Computer Engineering](https://w3.cs.bilkent.edu.tr/en/) at [Bilkent University](https://w3.bilkent.edu.tr/bilkent/). 
+I'm an Asst. Prof. in the area of AI & Robotics at [Bilkent University](https://w3.bilkent.edu.tr/bilkent/) and lead of the [Learning for Intelligent Robotic Agents (LiRA) Lab](lira-lab.github.io) in the [Department of Computer Engineering](https://w3.cs.bilkent.edu.tr/en/).
 In my research, I focus on algorithms that can enrich the skill set of autonomous agents. 
 This entails endowing intelligent systems with effective learning, reasoning, and planning capabilities. <!-- , and manipulation .  -->
 Robotics, and a range of other domains that require autonomous decision-making, provide a perfect test-bed for the investigation and application of such methods.
