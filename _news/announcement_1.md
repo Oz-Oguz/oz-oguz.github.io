@@ -4,4 +4,4 @@ date: 2021-10-01 15:59:00-0400
 inline: true
 ---
 
-Our Safe Reinforcement Learning work got accepted for publication in [IEEE TNNLS](https://ieeexplore.ieee.org/document/9528905) - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9528905).
+Our preprint (on Deep Reinforcement Learning) is out [CUER: Corrected Uniform Experience Replay for Off-Policy Continuous Deep Reinforcement Learning Algorithms](https://arxiv.org/abs/2406.09030) - [pdf](https://arxiv.org/pdf/2406.09030).
