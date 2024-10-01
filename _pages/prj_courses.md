@@ -10,7 +10,8 @@ nav: true
 <!-- - I will supervise at most three senior projects per year. -->
 - 24' Fall: I'm currently supervising three senior projects.
   - Group 1: Ali Cevat Erçal, Kerim Eren, Ömer Amir Akdağ, Efe Tokar, Göktuğ Serdar Yıldırım
-  - Group 2: 
+  - Group 2: Hakan Muluk, Mehmet Onur Özdemir, Emir Şahin Dilli
+  - Group 3: _in discussion with several groups already_ I might not respond to your emails.
 
 <!-- - 22' Fall: I'm currently supervising three senior projects.
   - Group 1: Eren Polat, Emir M. Erdem, Mert B. Er, Efe Beydogan, Arda Onal
