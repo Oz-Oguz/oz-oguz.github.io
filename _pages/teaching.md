@@ -11,8 +11,8 @@ nav_order: 6
 
 - [cs 390 / 490](/courses/project_courses)
 - [cs 491/2](/courses/project_courses)
-- **24-Fall**: CS 449 / 549: Learning for Robotics
-- **24-Fall**: CS 461: Artificial Intelligence
+- **24-Fall**: [CS 449 / 549](https://stars.bilkent.edu.tr/syllabus/view/CS/549/): Learning for Robotics
+- **24-Fall**: [CS 461](https://stars.bilkent.edu.tr/syllabus/view/CS/461/): Artificial Intelligence
 - **23-Spring**: CS 473: Algorithms I
 
 
