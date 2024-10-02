@@ -11,12 +11,12 @@ nav: true
 - 24' Fall: I'm currently supervising three senior projects.
   - Group 1: Ali Cevat Erçal, Kerim Eren, Ömer Amir Akdağ, Efe Tokar, Göktuğ Serdar Yıldırım
   - Group 2: Hakan Muluk, Mehmet Onur Özdemir, Emir Şahin Dilli
-  - Group 3: _in discussion with several groups already_ I might not respond to your emails.
+  - Group 3: _in discussion with several groups already_ - I might not be able to respond to your emails.
 
-<!-- - 22' Fall: I'm currently supervising three senior projects.
+- 22' Fall: supervised three senior projects.
   - Group 1: Eren Polat, Emir M. Erdem, Mert B. Er, Efe Beydogan, Arda Onal
   - Group 2: Yagiz Yasar, Saitcan Baskol, Kutay Demiray, Gokberk Beydemir, Berke Ucar
-  - Group 3: Giray Akyol, M. Hikmet Simsir, Mustafa Y. Altunhan, M. Utku Aydogdu, Muhammed C. Kucukaslan -->
+  - Group 3: Giray Akyol, M. Hikmet Simsir, Mustafa Y. Altunhan, M. Utku Aydogdu, Muhammed C. Kucukaslan
   
 - I prefer topics that involve at least one of the following areas:
     - artificial intelligence
