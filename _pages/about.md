@@ -2,27 +2,42 @@
 layout: about
 title: Ozgur S. Oguz
 permalink: /
-description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Assistant Professor of Computer Engineering, <a href="https://w3.bilkent.edu.tr/bilkent/">Bilkent University</a> · Director, <a href="https://lira-lab.github.io/">Learning for Intelligent Robotic Agents (LiRA) Lab</a>
 
 profile:
   align: right
   image: bio_oz.webp
-  address: >
+  image_circular: false
+  more_info: >
+    <p><b>Office:</b> EA-529, Engineering Bldg.</p>
+    <p>Dept. of Computer Engineering</p>
+    <p>Bilkent University, 06800 Ankara</p>
+    <p><b>Tel:</b> +90 (312) 290 3398</p>
+    <p><b>Email:</b> ozgur [at] cs.bilkent.edu.tr</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm an Asst. Prof. in the area of AI & Robotics at [Bilkent University](https://w3.bilkent.edu.tr/bilkent/) and the lead of the [Learning for Intelligent Robotic Agents (LiRA) Lab](https://lira-lab.github.io) in the [Dept. of Computer Engineering](https://w3.cs.bilkent.edu.tr/).
+I am an Assistant Professor in the [Department of Computer Engineering](https://w3.cs.bilkent.edu.tr/) at [Bilkent University](https://w3.bilkent.edu.tr/bilkent/), where I lead the **[Learning for Intelligent Robotic Agents (LiRA) Lab](https://lira-lab.github.io/)**.
 
-In my research, I focus on algorithms that can enrich the skill set of autonomous agents. 
-This entails endowing intelligent systems with effective learning, reasoning, and planning capabilities. <!-- , and manipulation .  -->
-Robotics, and a range of other domains that require autonomous decision-making, provide a perfect test-bed for the investigation and application of such methods.
-<!-- enable autonomous agent to  task and motion planning in robotics, and learning and reasoning for intelligent systems.  -->
+Previously, I was a postdoctoral researcher at the University of Stuttgart (Learning and Intelligent Systems / Machine Learning & Robotics Lab) working with [Marc Toussaint](https://www.user.tu-berlin.de//mtoussai//) and the Max Planck Institute for Intelligent Systems, affiliated with the [Cluster of Excellence: IntCDC](https://www.intcdc.uni-stuttgart.de/). I received my Ph.D. (*summa cum laude*) in Electrical and Computer Engineering from the [Technical University of Munich (TUM)](https://www.ei.tum.de/en/lsr/home/). I completed my prior studies in Computer Science at the [University of British Columbia (UBC)](https://www.cs.ubc.ca/) and [Koç University](https://rml.ku.edu.tr/).
 
-Prior to joining Bilkent U., I was a postdoctoral researcher at the Learning and Intelligence Systems Lab working with [Marc Toussaint](https://www.user.tu-berlin.de//mtoussai//). I was affiliated with Uni Stuttgart & Max Planck Institute for Intelligent Systems, and working within the [Cluster of Excellence: IntCDC](https://www.intcdc.uni-stuttgart.de/). I received my PhD degree from [TU Munich](https://www.ei.tum.de/en/lsr/home/), where I focused on HRI in close-proximity scenarios. I studied computer science at [UBC](https://www.cs.ubc.ca/) and [Koç Uni](https://rml.ku.edu.tr/).
+### Research Interests & LiRA Lab
+My research sits at the intersection of **Robotics, Machine Learning, and Artificial Intelligence**. At the **[LiRA Lab](https://lira-lab.github.io/)**, we specialize in building active, embodied AI agents capable of perceiving, reasoning about, and interacting seamlessly with the physical world:
+- **Physical Intelligence & Embodied AI:** Grounding vision-language-action (VLA) models for dexterous manipulation.
+- **Robot Learning:** Deep reinforcement learning, imitation learning, and generative policy synthesis.
+- **Task and Motion Planning (TAMP):** Logic-Geometric Programming (LGP), sequential manipulation, and hybrid planners.
+- **Multi-Arm & Contact-Rich Control:** Optimization-augmented reactive control and dynamic tool manipulation.
 
-### available positions
-- Post-doc position is available
-- Motivated graduate / undergraduate students wanted. Contact me if you are interested in **deep learning**, **(deep) perception**, **robotics**, in general any topics in **artificial intelligence**. **!!!**
+Our laboratory infrastructure includes Franka Emika robotic arms, Vicon motion capture systems, VR teleoperation interfaces, and RGB-D sensor arrays. Visit our lab homepage for codebases, dataset releases, and demo videos: [https://lira-lab.github.io/](https://lira-lab.github.io/).
+
+### Departmental & University Roles
+- **Summer Internship Coordinator** (CS 299 / CS 399)
+- **Quality Management & Evaluation (QME)**
+- **Faculty Advisor**, Bilkent Artificial Intelligence (AI) Society
+
+### Prospective Students & Researchers
+- **Post-Doc, Ph.D., and M.Sc. positions** are available in the [LiRA Lab](https://lira-lab.github.io/).
+- Highly motivated **undergraduate and graduate students** interested in embodied AI, robot learning, deep perception, and physical intelligence are encouraged to reach out via [email](mailto:ozgur@cs.bilkent.edu.tr) with their CV and transcript.
