@@ -5,6 +5,7 @@ title: team
 description: Researchers, students, and alumni of the <a href="https://lira-lab.github.io/">Learning for Intelligent Robotic Agents (LiRA) Lab</a> at Bilkent University.
 nav: true
 nav_order: 3
+redirect: https://lira-lab.github.io/people/
 ---
 
 ### Director
